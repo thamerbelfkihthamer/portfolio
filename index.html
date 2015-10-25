@@ -16,7 +16,7 @@
         <meta property="og:title" content="Thamer Belfkih !! Développement web & Mobile "/>
         <meta property="og:type" content="Portfolio"/>
         <meta property="og:url" content="http://www.thamerbelfkih.com"/>
-        <meta property="og:image" content="img/thamer.gif"/>
+        <meta property="og:image" content="img/presentation.jpg"/>
         <meta property="og:description" content="Thamer Belfkih | Nabeul , Tunisie ! Je suis un  développeur web PHP5/JQUERY qui réalise l’ensemble des fonctionnalités d’un site internet. ">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,12 +26,13 @@
         <meta name="classification" content="Design, Site web Tunisie, Web Development,portfolio, Tunisie, Tunisia, Tunis, Website, Web Site, site Web, Internet, Online, Design, Development, HTML, CSS, AJAX, MySQL, Database, web service,angularjs,symfony 2,bootstrap 3,wordpress">
         <title>Thamer Belfkih | Développeur web Nabeul Tunisie</title>
         <link rel="shortcut icon" href="img/xO.png.pagespeed.ic.00NB4j1qNf.png" type="image/x-icon" title="oussama icone"/>
-        <link rel=icon href="img/thamer.gif" type="image/x-icon"/>
+        <link rel=icon href="img/presentation.jpg" type="image/x-icon"/>
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+         <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 
                                             <!-- css include-->
         <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -39,48 +40,61 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">                                   
     </head>
     <body id="page-top" class="index">
-    <div class="spinner" style="width:100%;height:100%;background-color: red;"></div>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                     <img src="img/thamer.gif" alt="thamer " style="height:120px;width:120px;margin-top:-40px;margin-left:-20px;">
-                    <a class="navbar-brand hidden-xs" href="#page-top" title="Thamer Belfkih">Thamer Belfkih</a>
+    <!--[if lt IE 7]>
+                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+   <!-- start load thamer 
+     <div id="loadscreen">
+       <div class="spinner">
+       </div>
+     </div>  
+
+     End load thamer-->
+    <section id="page2">
+              <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" id="btn-navbar" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div>
+                          <img src="img/thamer.gif" alt="thamer " id="igmheader" class="wow bounceInRight " style="height:120px; width:120px; margin-top:-40px;margin-left:-100px;">
+                        </div>
+                        <a class="navbar-brand hidden-xs wow bounceInRight" href="#page-top" title="Thamer Belfkih" style="margin-top:-75px;margin-left:-10px;">Thamer Belfkih</a>
+                    </div>
+                    <div class="collapse navbar-collapse  wow bounceInLeft" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="#page-top" title="top page"></a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#apropos" title="portfolio">About me</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#skills" title="a propo">Skills</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#portfolio" title="skills">Portfolio</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#contact" title="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top" title="top page"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#portfolio" title="portfolio">Portfolio</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#apropos" title="a propo">About me</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#skills" title="skills">Skills</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#contact" title="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <header id="header" class="">
+            </nav>
+           <header id="header"> 
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                         <img class="img-responsive img-circle WOW bounceInUp" src="img/presentation.jpg" style="height: 300px;width:300px;" alt="thamer belfkih">
+                         <img class="img-responsive img-circle WOW bounceInUp" data-wow-duration="3s" data-wow-delay="2s" src="img/presentation.jpg" style="height: 300px;width:300px;" alt="thamer belfkih" id="imagespeech">
                         
 
-                        <div class="intro-thamer wow fadeInDown">
+                        <div class="intro-thamer wow fadeInDown" data-wow-delay="2s" data-wow-duration="2">
                             <span class="name" >Thamer Belfkih</span>
                             <hr class="star-light" style="color:#FFFFFF;">
                             <span class="skillss"> - Developpeur Web & Mobile - </span>
@@ -94,14 +108,14 @@
         <section id="apropos">
           <div class="container">
               <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center wow bounce">
                     <h1>About me</h1>
                 </div>  
                 <div class="row">
-                   <div class="col-lg-4 col-lg-offset-2">
-                    <p style="Line-Height:2;">&nbsp;&nbsp;&nbsp;&nbsp;Actuellement , je suis un étudiant en informatique fondamental à la faculté de science de tunis (FST). je suis une personne sérieuse et ambitieuse .je suis  intéressé par l’informatique en général, et par le développement Web et mobile en particulier.</p>
+                   <div class="col-lg-4 col-lg-offset-2 wow bounceInRight">
+                    <p style="Line-Height:2;">&nbsp;&nbsp;&nbsp;&nbsp;Actuellement , je suis un étudiant en informatique fondamental (bac +3) à la faculté de science de tunis (FST). je suis une personne sérieux et ambitieux .je suis  intéressé par l’informatique en général, et par le développement Web et mobile en particulier.</p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 wow bounceInLeft">
                         <p style="Line-Height:2;">&nbsp;&nbsp;&nbsp;&nbsp;Si vous êtes intéressé de savoir quelque chose sur moi vous pouvez lire mes informations et si vous voulez de me contacter vous pouvez suivre les liens ci-dessous.<p>
                     </div>
                 </div>                
@@ -111,105 +125,111 @@
         <section id="skills">
            <div class="container">
               <div class="row">
-                  <div class="col-lg-12 text-center">
+                  <div class="col-lg-12 text-center wow bounce">
                       <h1> skills</h1>
                   </div>
               </div>
               <div class="row">
-                  <div class="col-lg-3">
-                    <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>HTML5</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">75%</p></span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>CSS3</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">60%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>PHP5</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">70%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>JS</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">65%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>JAVA</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">68%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                     <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                     <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>JQUERY</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">74%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>BOOTSTRAP3</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">69%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>AJAX</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">74%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                    <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>ANDROID</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">55%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>SYMFONY2</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">78%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>ANGULARJS</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">70%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>WORDPRESS</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">80%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
+                        <p>GIT</p>
+                        <span class="cirlce">60%</span>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>GRUNT</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">85%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                     <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                     <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>BOWER</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">80%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>SASS</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">85%</span>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                      <div class="cirle-skills text-center wow flipInX" data-wow-delay="1s">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="cirle-skills text-center wow zoomIn" data-wow-delay="1s">
                         <p>PHOTOSHOP</p>
-                        <span class="cirlce">33%</span>
+                        <span class="cirlce">40%</span>
                     </div>
                   </div>
               </div> 
@@ -219,24 +239,23 @@
         <section id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center wow bounce">
                         <h1> Profolio </h1>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12 profolio-item stage">
-                             <h3 class="text-center ">Stage</h3>
+                        <div class="col-md-6 col-sm-6 col-xs-12 profolio-item stage wow bounceInLeft">
+                             <h3 class="text-center">Stage</h3><hr>
                              <br><br>
-                             <p class="text-center ">- je  suis a la recherche d'un premier stage </p>
+                             <p class="text-center ">- je  suis à la recherche d'un premier stage </p>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 profolio-item">
-                             <h3 class="text-center">projets universitaire</h3><br><br>
-                             <p class="text-center"><a href="https://github.com/thamerbelfkihthamer/" style="color:#060606">compte github</a></p>
-                             <p class="text-center"><a href="http://217Event.net" style="color:#060606">217event</a></p>
+                        <div class="col-md-6 col-sm-6 col-xs-12 profolio-item  wow bounceInRight">
+                             <h3 class="text-center">projets universitaire</h3><hr><br><br>
+                             <p class="text-center circle-cv"><a href="https://github.com/thamerbelfkihthamer/">compte github</a></p>
+                             <p class="text-center circle-cv"><a href="http://217Event.net">217event</a></p>
                         </div>
-                         <div class="col-md-6 col-sm-6 col-xs-12 profolio-item stage">
-                             <h3 class="text-center ">CV</h3>
-                             <br><br>
-                             <span class="text-center" style="width:400px;height:100px;border: 1px solid #0F0F0F;padding-top:20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;margin-left: 40%;"><a href="doc/cv.pdf" title="cv" style="color:#0A0A0A">voir mon CV</a></span>
+                         <div class="col-md-6 col-sm-6 col-xs-12 profolio-item stage  wow bounceInLeft">
+                             <h3 class="text-center">CV</h3><hr>
+                             <p class="text-center circle-cv"><a href="doc/cv.pdf" title="cv">CV</a></p><br>
                         </div>
                     </div>
                 </div>
@@ -245,18 +264,16 @@
         <section id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center wow bounce">
                         <h1> contact</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center" id="formulaire">
-                        <form>
+                    <div class="col-lg-8 col-lg-offset-2 text-center wow zoomIn" id="formulaire">
                           <input type="text" name="nom" placeholder="nom"><br>
                           <input type="email" name="email" placeholder="example@exemple.com"><br>
                           <textarea rows="5" name="message" placeholder="message"></textarea><br>
                           <input type="submit" value="envoyer"><br>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -264,7 +281,7 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-lg-offset-1">
+                    <div class="col-lg-3 col-lg-offset-1 wow bounceInLeft">
                         <h3 class="text-center">coordonnées</h3>
                         <ul class="list-block text-center" style="list-style: none">
                             <li>
@@ -275,7 +292,7 @@
                             </li>
                         </ul>    
                     </div>
-                    <div class="col-lg-3 col-lg-offset-1">
+                    <div class="col-lg-3 col-lg-offset-1 wow bounceInup">
                         <h3 class="text-center">social media</h3>
                         <ul class="list-inline text-center">
                             <li>
@@ -292,9 +309,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-lg-offset-1">
+                    <div class="col-lg-3 col-lg-offset-1 wow bounceInRight">
                        <h3 class="text-center"> a propos </h3>
-                       <p class="text-center"> Je suis un  développeur web front & back end qui réalise l’ensemble des fonctionnalités d’un site internet.</p>
+                       <p class="text-center"> Je suis un  développeur web frontend & backend qui réalise l’ensemble des fonctionnalités d’un site internet.</p>
                     </div>
                 </div>
             </div>
@@ -303,16 +320,29 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p>Copyright © Thamer Belfkih 2015</p>
+                        <p>Copyright 2015 © - Thamer Belfkih - All Rights Reserved</p>
                     </div>
+<!-- DEBUT CODE compteur-gratuit.org -->
+    <script language="JavaScript" src="http://www.compteur-gratuit.org/count/c.js?id=12784816&t=3&d=31&n=3&s=0"></script><noscript>un <a target="_blank" href="http://www.compteur-gratuit.org">compteur gratuit</a> pour votre site web</noscript>
+<!-- FIN CODE compteur-gratuit.org -->
                 </div>
             </div>
         </div>
+    </section>
 
+   
+        <script src='http://code.responsivevoice.org/responsivevoice.js'></script>        
         <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
         <script src="bower_components/wow/dist/wow.min.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="js/jquerycounter.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="bower_components/jquerynicescoll/dist/jquery.nicescroll.min.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="/bower_components/particlesjs/particles.min.js" type="text/javascript" charset="utf-8" async defer></script>
          <script src="js/index.js" type="text/javascript" charset="utf-8" async defer></script>
+
+         <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
     </body>
 </html>    
 
